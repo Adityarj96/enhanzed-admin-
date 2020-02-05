@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [suite]">
+  <listeners>
+    <listener class-name="com.enhanzed.qa.listners.TestAllureListener"/>
+  </listeners>
+  <test thread-count="5" name="Enhanzed admin test">
+    <classes>
+      <class name="com.enhanzedadmin.qa.testcases.Adminlogintest"/>
+      <class name="com.enhanzedadmin.qa.testcases.orgcodetest"/>
+    </classes>
+  </test> <!-- Enhanzed admin test -->
+  <test name="Enhanzed admin test(failed)">
+    <classes>
+      <class name="com.enhanzedadmin.qa.testcases.orgcodetest">
+        <methods>
+          <include name="setup"/>
+          <include name="end"/>
+          <include name="checkforblankorgcode"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.enhanzedadmin.qa.testcases.orgcodetest -->
+      <class name="com.enhanzedadmin.qa.testcases.Adminlogintest">
+        <methods>
+          <include name="end"/>
+          <include name="initialization"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.enhanzedadmin.qa.testcases.Adminlogintest -->
+    </classes>
+  </test> <!-- Enhanzed admin test(failed) -->
+</suite> <!-- Failed suite [suite] -->

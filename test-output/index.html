@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\vitnita enhanzed\AppData\Local\Temp\testng-eclipse--285004568\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">29 methods, 1 failed,  14 skipped,  14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="addDuplicateTopic">addDuplicateTopic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Default_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="addobject(Engineering, 2.0)">addobject(Engineering, 2.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="addobject(Computer Science, 1.0)">addobject(Computer Science, 1.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="addobject(electrical and electronics, 6.0)">addobject(electrical and electronics, 6.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="addobject(fgdfgdf, 1.0)">addobject(fgdfgdf, 1.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="addobject(electrical and electronics, 3.0)">addobject(electrical and electronics, 3.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="checkUploadingBlankTitle">checkUploadingBlankTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="checkaddingblankvideo">checkaddingblankvideo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="checkaddingdescriptionvideovideo">checkaddingdescriptionvideovideo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="checkaddingdurationvideovideo">checkaddingdurationvideovideo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="checkaddingfilevideowithoutdescription">checkaddingfilevideowithoutdescription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="checkaddingquizobject">checkaddingquizobject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="checkinteractivity">checkinteractivity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="checkinteractivitywhenimageandsubcategorynotgiven">checkinteractivitywhenimageandsubcategorynotgiven</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="checkuploadPdfWhenBlank">checkuploadPdfWhenBlank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="addEmptyTopic">addEmptyTopic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="addEmptyTopicImage">addEmptyTopicImage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="addEmptyTopicName">addEmptyTopicName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="addTopic">addTopic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="checkAudioBlankCredentials">checkAudioBlankCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="checkBalnkCredentials">checkBalnkCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="checkBalnkCredentialsDurationCategory">checkBalnkCredentialsDurationCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="checkBalnkCredentialsFileUpload">checkBalnkCredentialsFileUpload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="checkHtmlBalnkContentbody">checkHtmlBalnkContentbody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="checkHtmlBlankData">checkHtmlBlankData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="checkOnlyBlankTitle">checkOnlyBlankTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="checkOnlyWhenAudioUploaded">checkOnlyWhenAudioUploaded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="checkUploadingBlankFileandCategory">checkUploadingBlankFileandCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.enhanzedadmin.qa.testcases.ContentTest" hash-for-method="checkUploadingBlankHtml">checkUploadingBlankHtml</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.enhanzedadmin.qa.testcases.ContentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addDuplicateTopic">
+                  </a> <!-- addDuplicateTopic -->
+                  <span class="method-name">addDuplicateTopic</span>
+                  <div class="stack-trace">java.lang.AssertionError: The message is not displayed expected [Topic with the same name already exists] but found [Topic with the same name already exists.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at com.enhanzedadmin.qa.testcases.ContentTest.addDuplicateTopic(ContentTest.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.enhanzedadmin.qa.testcases.ContentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addobject(Engineering, 2.0)">
+                  </a> <!-- addobject(Engineering, 2.0) -->
+                  <span class="method-name">addobject</span>
+                  <span class="parameters">(Engineering, 2.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addobject(Computer Science, 1.0)">
+                  </a> <!-- addobject(Computer Science, 1.0) -->
+                  <span class="method-name">addobject</span>
+                  <span class="parameters">(Computer Science, 1.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addobject(electrical and electronics, 6.0)">
+                  </a> <!-- addobject(electrical and electronics, 6.0) -->
+                  <span class="method-name">addobject</span>
+                  <span class="parameters">(electrical and electronics, 6.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addobject(fgdfgdf, 1.0)">
+                  </a> <!-- addobject(fgdfgdf, 1.0) -->
+                  <span class="method-name">addobject</span>
+                  <span class="parameters">(fgdfgdf, 1.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addobject(electrical and electronics, 3.0)">
+                  </a> <!-- addobject(electrical and electronics, 3.0) -->
+                  <span class="method-name">addobject</span>
+                  <span class="parameters">(electrical and electronics, 3.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkUploadingBlankTitle">
+                  </a> <!-- checkUploadingBlankTitle -->
+                  <span class="method-name">checkUploadingBlankTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkaddingblankvideo">
+                  </a> <!-- checkaddingblankvideo -->
+                  <span class="method-name">checkaddingblankvideo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkaddingdescriptionvideovideo">
+                  </a> <!-- checkaddingdescriptionvideovideo -->
+                  <span class="method-name">checkaddingdescriptionvideovideo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkaddingdurationvideovideo">
+                  </a> <!-- checkaddingdurationvideovideo -->
+                  <span class="method-name">checkaddingdurationvideovideo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkaddingfilevideowithoutdescription">
+                  </a> <!-- checkaddingfilevideowithoutdescription -->
+                  <span class="method-name">checkaddingfilevideowithoutdescription</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkaddingquizobject">
+                  </a> <!-- checkaddingquizobject -->
+                  <span class="method-name">checkaddingquizobject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkinteractivity">
+                  </a> <!-- checkinteractivity -->
+                  <span class="method-name">checkinteractivity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkinteractivitywhenimageandsubcategorynotgiven">
+                  </a> <!-- checkinteractivitywhenimageandsubcategorynotgiven -->
+                  <span class="method-name">checkinteractivitywhenimageandsubcategorynotgiven</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkuploadPdfWhenBlank">
+                  </a> <!-- checkuploadPdfWhenBlank -->
+                  <span class="method-name">checkuploadPdfWhenBlank</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.enhanzedadmin.qa.testcases.ContentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addEmptyTopic">
+                  </a> <!-- addEmptyTopic -->
+                  <span class="method-name">addEmptyTopic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addEmptyTopicImage">
+                  </a> <!-- addEmptyTopicImage -->
+                  <span class="method-name">addEmptyTopicImage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addEmptyTopicName">
+                  </a> <!-- addEmptyTopicName -->
+                  <span class="method-name">addEmptyTopicName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addTopic">
+                  </a> <!-- addTopic -->
+                  <span class="method-name">addTopic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAudioBlankCredentials">
+                  </a> <!-- checkAudioBlankCredentials -->
+                  <span class="method-name">checkAudioBlankCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkBalnkCredentials">
+                  </a> <!-- checkBalnkCredentials -->
+                  <span class="method-name">checkBalnkCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkBalnkCredentialsDurationCategory">
+                  </a> <!-- checkBalnkCredentialsDurationCategory -->
+                  <span class="method-name">checkBalnkCredentialsDurationCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkBalnkCredentialsFileUpload">
+                  </a> <!-- checkBalnkCredentialsFileUpload -->
+                  <span class="method-name">checkBalnkCredentialsFileUpload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHtmlBalnkContentbody">
+                  </a> <!-- checkHtmlBalnkContentbody -->
+                  <span class="method-name">checkHtmlBalnkContentbody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkHtmlBlankData">
+                  </a> <!-- checkHtmlBlankData -->
+                  <span class="method-name">checkHtmlBlankData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOnlyBlankTitle">
+                  </a> <!-- checkOnlyBlankTitle -->
+                  <span class="method-name">checkOnlyBlankTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOnlyWhenAudioUploaded">
+                  </a> <!-- checkOnlyWhenAudioUploaded -->
+                  <span class="method-name">checkOnlyWhenAudioUploaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkUploadingBlankFileandCategory">
+                  </a> <!-- checkUploadingBlankFileandCategory -->
+                  <span class="method-name">checkUploadingBlankFileandCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkUploadingBlankHtml">
+                  </a> <!-- checkUploadingBlankHtml -->
+                  <span class="method-name">checkUploadingBlankHtml</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\vitnita enhanzed\AppData\Local\Temp\testng-eclipse--285004568\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.enhanzedadmin.qa.testcases.ContentTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+  &lt;test name=&quot;Default test(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.enhanzedadmin.qa.testcases.ContentTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;checkUploadingBlankTitle&quot;/&gt;
+          &lt;include name=&quot;addobject&quot;/&gt;
+          &lt;include name=&quot;addDuplicateTopic&quot;/&gt;
+          &lt;include name=&quot;checkuploadPdfWhenBlank&quot;/&gt;
+          &lt;include name=&quot;checkinteractivity&quot;/&gt;
+          &lt;include name=&quot;end&quot;/&gt;
+          &lt;include name=&quot;setup&quot;/&gt;
+          &lt;include name=&quot;checkaddingquizobject&quot;/&gt;
+          &lt;include name=&quot;initialization&quot;/&gt;
+          &lt;include name=&quot;checkaddingdurationvideovideo&quot;/&gt;
+          &lt;include name=&quot;checkaddingdescriptionvideovideo&quot;/&gt;
+          &lt;include name=&quot;checkinteractivitywhenimageandsubcategorynotgiven&quot;/&gt;
+          &lt;include name=&quot;checkaddingfilevideowithoutdescription&quot;/&gt;
+          &lt;include name=&quot;checkaddingblankvideo&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.enhanzedadmin.qa.testcases.ContentTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Default test(failed) (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(29);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkOnlyWhenAudioUploaded')
+data.setCell(0, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(0, 3, 32095);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkOnlyBlankTitle')
+data.setCell(1, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(1, 3, 31648);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addDuplicateTopic')
+data.setCell(2, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(2, 3, 23121);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkBalnkCredentialsFileUpload')
+data.setCell(3, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(3, 3, 21190);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addTopic')
+data.setCell(4, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(4, 3, 21162);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addEmptyTopicName')
+data.setCell(5, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(5, 3, 21089);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkAudioBlankCredentials')
+data.setCell(6, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(6, 3, 20978);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkBalnkCredentialsDurationCategory')
+data.setCell(7, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(7, 3, 20532);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkUploadingBlankFileandCategory')
+data.setCell(8, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(8, 3, 20512);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkBalnkCredentials')
+data.setCell(9, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(9, 3, 20363);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkHtmlBalnkContentbody')
+data.setCell(10, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(10, 3, 18058);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkHtmlBlankData')
+data.setCell(11, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(11, 3, 17806);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkUploadingBlankHtml')
+data.setCell(12, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(12, 3, 17736);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'addEmptyTopicImage')
+data.setCell(13, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(13, 3, 10700);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'addEmptyTopic')
+data.setCell(14, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(14, 3, 10246);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkaddingblankvideo')
+data.setCell(15, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(15, 3, 7);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkaddingdescriptionvideovideo')
+data.setCell(16, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(16, 3, 4);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkinteractivity')
+data.setCell(17, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(17, 3, 3);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkaddingfilevideowithoutdescription')
+data.setCell(18, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(18, 3, 2);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'addobject')
+data.setCell(19, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(19, 3, 2);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkaddingquizobject')
+data.setCell(20, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(20, 3, 2);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'addobject')
+data.setCell(21, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'addobject')
+data.setCell(22, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'checkinteractivitywhenimageandsubcategorynotgiven')
+data.setCell(23, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'checkuploadPdfWhenBlank')
+data.setCell(24, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'addobject')
+data.setCell(25, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'checkUploadingBlankTitle')
+data.setCell(26, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'checkaddingdurationvideovideo')
+data.setCell(27, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(27, 3, 1);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'addobject')
+data.setCell(28, 2, 'com.enhanzedadmin.qa.testcases.ContentTest')
+data.setCell(28, 3, 1);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.enhanzedadmin.qa.testcases.ContentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initialization</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">14118 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addEmptyTopic</span>
+                <span class="method-start">19323 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">29590 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialization</span>
+                <span class="method-start">33295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">46861 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addEmptyTopicName</span>
+                <span class="method-start">51863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">72969 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialization</span>
+                <span class="method-start">76694 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">90417 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addEmptyTopicImage</span>
+                <span class="method-start">95559 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">106277 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialization</span>
+                <span class="method-start">109950 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">125771 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addDuplicateTopic</span>
+                <span class="method-start">130872 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">153997 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialization</span>
+                <span class="method-start">157711 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">171442 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addTopic</span>
+                <span class="method-start">176548 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">197711 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialization</span>
+                <span class="method-start">201407 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">215090 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkAudioBlankCredentials</span>
+                <span class="method-start">219719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">240697 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialization</span>
+                <span class="method-start">244363 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">257385 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkBalnkCredentials</span>
+                <span class="method-start">262089 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">282457 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialization</span>
+                <span class="method-start">286172 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">299649 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkBalnkCredentialsDurationCategory</span>
+                <span class="method-start">304703 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">325236 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialization</span>
+                <span class="method-start">328975 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">343358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkBalnkCredentialsFileUpload</span>
+                <span class="method-start">348421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">369612 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialization</span>
+                <span class="method-start">373296 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">386625 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkOnlyBlankTitle</span>
+                <span class="method-start">391619 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">423288 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialization</span>
+                <span class="method-start">426967 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">440639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkOnlyWhenAudioUploaded</span>
+                <span class="method-start">445801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">477898 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialization</span>
+                <span class="method-start">481595 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">495302 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkHtmlBlankData</span>
+                <span class="method-start">500408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">518215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialization</span>
+                <span class="method-start">521919 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">535715 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkHtmlBalnkContentbody</span>
+                <span class="method-start">540523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">558598 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialization</span>
+                <span class="method-start">562284 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">575888 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkUploadingBlankHtml</span>
+                <span class="method-start">580961 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">598698 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialization</span>
+                <span class="method-start">602373 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">615959 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkUploadingBlankFileandCategory</span>
+                <span class="method-start">621075 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">641608 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">initialization</span>
+                <span class="method-start">645307 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkUploadingBlankTitle</span>
+                <span class="method-start">656393 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkuploadPdfWhenBlank</span>
+                <span class="method-start">656396 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkinteractivity</span>
+                <span class="method-start">656469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkinteractivitywhenimageandsubcategorynotgiven</span>
+                <span class="method-start">656475 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkaddingblankvideo</span>
+                <span class="method-start">656482 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkaddingdescriptionvideovideo</span>
+                <span class="method-start">656544 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkaddingdurationvideovideo</span>
+                <span class="method-start">656563 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkaddingfilevideowithoutdescription</span>
+                <span class="method-start">656596 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkaddingquizobject</span>
+                <span class="method-start">656637 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addobject(fgdfgdf, 1.0)</span>
+                <span class="method-start">657434 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addobject(Computer Science, 1.0)</span>
+                <span class="method-start">657438 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addobject(Engineering, 2.0)</span>
+                <span class="method-start">657457 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addobject(electrical and electronics, 3.0)</span>
+                <span class="method-start">657460 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addobject(electrical and electronics, 6.0)</span>
+                <span class="method-start">657494 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

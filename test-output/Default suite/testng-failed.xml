@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.enhanzedadmin.qa.testcases.ContentTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.enhanzedadmin.qa.testcases.ContentTest">
+        <methods>
+          <include name="checkUploadingBlankTitle"/>
+          <include name="addobject"/>
+          <include name="addDuplicateTopic"/>
+          <include name="checkuploadPdfWhenBlank"/>
+          <include name="checkinteractivity"/>
+          <include name="end"/>
+          <include name="setup"/>
+          <include name="checkaddingquizobject"/>
+          <include name="initialization"/>
+          <include name="checkaddingdurationvideovideo"/>
+          <include name="checkaddingdescriptionvideovideo"/>
+          <include name="checkinteractivitywhenimageandsubcategorynotgiven"/>
+          <include name="checkaddingfilevideowithoutdescription"/>
+          <include name="checkaddingblankvideo"/>
+        </methods>
+      </class> <!-- com.enhanzedadmin.qa.testcases.ContentTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

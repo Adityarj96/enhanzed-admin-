@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite">
+  <listeners>
+		<listener class-name="com.enhanzed.qa.listners.TestAllureListener" />
+  </listeners>
+   <test name="Enhanzed admin test" thread-count="5">
+    <classes>
+      <!--  <class name="com.enhanzedadmin.qa.testcases.Adminlogintest"/>
+      <class name="com.enhanzedadmin.qa.testcases.orgcodetest"/>
+      <class name="com.enhanzedadmin.qa.testcases.Dashboardtest"/>  -->
+      <class name="com.enhanzedadmin.qa.testcases.ManageUserTest"/>
+    <!--   <class name="com.enhanzedadmin.qa.testcases.ManageGroupTest"/> -->
+      <!-- <class name="com.enhanzedadmin.qa.testcases.ContentManagecategorytest"/> -->
+     <!--  <class name="com.enhanzedadmin.qa.testcases.ContentManageObjectsTest"/> -->
+      <!-- <class name="com.enhanzedadmin.qa.testcases.AssignTopicToUserTest"/>
+      <class name="com.enhanzedadmin.qa.testcases.AssignTopicToGroupTest"/>
+      <class name="com.enhanzedadmin.qa.testcases.EngageUserTest"/>
+      <class name="com.enhanzedadmin.qa.testcases.EngageGroupNotificationTest"/>
+      <class name="com.enhanzedadmin.qa.testcases.SettingsTest"/>  -->
+      </classes>
+          </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+     
+  
+  
